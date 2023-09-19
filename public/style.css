@@ -1,0 +1,17 @@
+body {
+    background-color: #ADD8E6;
+    color: #333333;
+}
+
+h1 {
+    color: #f8f080;
+}
+
+a {
+    color: #79e0e0;
+    text-decoration: none; /* Remove underlines from links */
+}
+
+a:hover {
+    color: #ce82c4; /* Change link color on hover */
+}
