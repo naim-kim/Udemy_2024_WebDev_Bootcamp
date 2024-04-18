@@ -24,10 +24,17 @@ header h1 {
 }
 
 main {
+    display: flex; /* Changed to flex to accommodate the menu */
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
     background-color: #fff;
+}
+
+/* Profile and Bio section styles */
+.profile, .bio {
+    flex: 1; /* Adjusted to allow the sections to grow */
+    padding: 0 20px; /* Added padding to align with the existing content */
 }
 
 .profile {
@@ -59,4 +66,29 @@ main {
     line-height: 1.5;
 }
 
+/* Menu styles */
+.menu {
+    background-color: #f4f4f4;
+    padding: 20px;
+    width: 200px; /* Adjust width as needed */
+}
 
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    margin-bottom: 10px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+.menu a:hover {
+    color: #007bff; /* Change color on hover */
+}
