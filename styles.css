@@ -1,3 +1,5 @@
+/* styles.css */
+
 /* Reset some default styles */
 body, h1, h2, p {
     margin: 0;
@@ -13,6 +15,9 @@ body {
 }
 
 header {
+    display: flex;
+    align-items: center; /* Align items vertically */
+    justify-content: space-between; /* Align items horizontally */
     background-color: #98cfe9;
     color: #fff;
     text-align: center;
@@ -23,47 +28,33 @@ header h1 {
     font-size: 36px;
 }
 
-main {
-    display: flex; /* Changed to flex to accommodate the menu */
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: #fff;
+.search-container {
+    display: flex;
+    align-items: center;
 }
 
-/* Profile and Bio section styles */
-.profile, .bio {
-    flex: 1; /* Adjusted to allow the sections to grow */
-    padding: 0 20px; /* Added padding to align with the existing content */
+.search-container input[type="text"] {
+    padding: 8px;
+    border-radius: 4px;
+    border: none;
+    margin-right: 10px;
 }
 
-.profile {
-    text-align: center;
+.search-container button {
+    padding: 8px 12px;
+    border-radius: 4px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
 }
 
-.profile img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    margin-bottom: 10px;
+.search-container button:hover {
+    background-color: #45a049;
 }
 
-.profile h2 {
-    font-size: 24px;
-}
-
-.profile p {
-    font-style: italic;
-    color: #777;
-}
-
-.bio h2 {
-    font-size: 24px;
-    margin-top: 20px;
-}
-
-.bio p {
-    line-height: 1.5;
+.container {
+    display: flex;
 }
 
 /* Menu styles */
@@ -91,4 +82,50 @@ main {
 
 .menu a:hover {
     color: #007bff; /* Change color on hover */
+}
+
+/* Main content styles */
+main {
+    display: flex;
+    flex: 1;
+    padding: 20px;
+}
+
+/* Profile and Bio section styles */
+.profile, .bio {
+    margin-bottom: 20px;
+}
+
+.profile {
+    flex: 1; /* Adjusted to move profile to the left */
+    text-align: center;
+}
+
+.profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.profile h2 {
+    font-size: 24px;
+}
+
+.profile p {
+    font-style: italic;
+    color: #777;
+}
+
+.bio {
+    flex: 2; /* Adjusted to make space for bio */
+}
+
+.bio h2 {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.bio p {
+    line-height: 1.5;
 }
