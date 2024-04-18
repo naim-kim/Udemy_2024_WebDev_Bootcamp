@@ -53,15 +53,10 @@ header h1 {
     background-color: #45a049;
 }
 
-.container {
-    display: flex;
-}
-
-/* Menu styles */
 .menu {
     background-color: #f4f4f4;
     padding: 20px;
-    width: 200px; /* Adjust width as needed */
+    width: 100%; /* Adjust width as needed */
 }
 
 .menu ul {
@@ -71,7 +66,8 @@ header h1 {
 }
 
 .menu li {
-    margin-bottom: 10px;
+    display: inline-block;
+    margin-right: 20px; /* Adjust spacing between menu items */
 }
 
 .menu a {
@@ -84,14 +80,16 @@ header h1 {
     color: #007bff; /* Change color on hover */
 }
 
-/* Main content styles */
+.container {
+    display: flex;
+}
+
 main {
     display: flex;
     flex: 1;
     padding: 20px;
 }
 
-/* Profile and Bio section styles */
 .profile, .bio {
     margin-bottom: 20px;
 }
@@ -128,4 +126,11 @@ main {
 
 .bio p {
     line-height: 1.5;
+}
+
+footer {
+    background-color: #98cfe9;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
 }
