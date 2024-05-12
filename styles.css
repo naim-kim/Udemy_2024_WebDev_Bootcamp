@@ -28,56 +28,38 @@ header h1 {
     font-size: 36px;
 }
 
-.search-container {
-    display: flex;
-    align-items: center;
-}
-
-.search-container input[type="text"] {
-    padding: 8px;
-    border-radius: 4px;
-    border: none;
-    margin-right: 10px;
-}
-
-.search-container button {
-    padding: 8px 12px;
-    border-radius: 4px;
-    border: none;
-    background-color: #4CAF50;
-    color: white;
-    cursor: pointer;
-}
-
-.search-container button:hover {
-    background-color: #45a049;
-}
-
-.menu {
-    background-color: #f4f4f4;
-    padding: 20px;
-    width: 100%; /* Adjust width as needed */
-}
-
-.menu ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-
-.menu li {
+.button {
     display: inline-block;
-    margin-right: 20px; /* Adjust spacing between menu items */
-}
-
-.menu a {
+    padding: 10px 20px;
+    background-color: #98cfe9; 
+    color: white;
     text-decoration: none;
-    color: #333;
-    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
 }
 
-.menu a:hover {
-    color: #007bff; /* Change color on hover */
+.button:hover {
+    color: #5f8292; 
+}
+
+.button-reverse {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: white; 
+    color: #98cfe9;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    line-height: 2;
+    font-size:larger;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.button-reverse:hover {
+    background-color: #5f8292;
+    color: white;
 }
 
 .container {
@@ -90,12 +72,13 @@ main {
     padding: 20px;
 }
 
+/* profile left part */
 .profile, .bio {
     margin-bottom: 20px;
 }
 
 .profile {
-    flex: 1; /* Adjusted to move profile to the left */
+    flex: 1; /* Adjust profile to the left */
     text-align: center;
 }
 
@@ -115,6 +98,7 @@ main {
     color: #777;
 }
 
+/* about content right part */
 .bio {
     flex: 2; /* Adjusted to make space for bio */
 }
@@ -164,7 +148,7 @@ footer {
     display: inline-block;
     padding: 10px 20px; /* Adjust padding as needed */
     margin-top: 10px; /* Adjust margin-top as needed */
-    background-color: #98cfe9; /* Example button color */
+    background-color: #98cfe9; 
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
@@ -172,20 +156,5 @@ footer {
 }
 
 .project-link:hover {
-    background-color: #5f8292; /* Example color on hover */
-}
-
-.button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #98cfe9; /* Example button color */
-    color: white;
-    text-decoration: none;
-    border: none;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-}
-
-.button:hover {
-    color: #5f8292; /* Example color on hover */
+    background-color: #5f8292; 
 }
