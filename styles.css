@@ -128,9 +128,64 @@ main {
     line-height: 1.5;
 }
 
+.about-content {
+    padding: 30px;
+}
+
+.content#bio,
+.content#web {
+    padding: 10px;
+}
 footer {
     background-color: #98cfe9;
     color: #fff;
     text-align: center;
     padding: 20px;
+}
+
+/* projects.html */
+
+.project-container {
+    width: 30%;
+    padding: 10px;
+}
+
+.project-container h2 {
+    margin-bottom: 5px;
+}
+
+.date {
+    font-style: italic;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.project-link {
+    display: inline-block;
+    padding: 10px 20px; /* Adjust padding as needed */
+    margin-top: 10px; /* Adjust margin-top as needed */
+    background-color: #98cfe9; /* Example button color */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.project-link:hover {
+    background-color: #5f8292; /* Example color on hover */
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #98cfe9; /* Example button color */
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    color: #5f8292; /* Example color on hover */
 }
