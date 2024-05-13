@@ -80,6 +80,7 @@ main {
 .profile {
     flex: 1; /* Adjust profile to the left */
     text-align: center;
+    width: 30%;
 }
 
 .profile img {
@@ -89,11 +90,11 @@ main {
     margin-bottom: 10px;
 }
 
-.profile h2 {
+.bio-name {
     font-size: 24px;
 }
 
-.profile p {
+.bio-major {
     font-style: italic;
     color: #777;
 }
@@ -127,10 +128,16 @@ footer {
     padding: 20px;
 }
 
-/* projects.html */
+/* projects */
+
+.projects {
+    width: 70%;
+    height: 100%;
+}
 
 .project-container {
-    width: 30%;
+   /* width: 30%; */
+   width: 80%;
     padding: 10px;
 }
 
@@ -138,7 +145,7 @@ footer {
     margin-bottom: 5px;
 }
 
-.date {
+.project-date {
     font-style: italic;
     color: #777;
     margin-bottom: 10px;
