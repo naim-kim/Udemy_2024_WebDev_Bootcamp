@@ -1,6 +1,6 @@
 code line to add home_nav.css to the projects
 
-<link rel="stylesheet" href="home_nav.css">
+<link rel="home_nav_style" href="home_nav.css">
 
 *** This goes in header of the project
 
