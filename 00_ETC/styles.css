@@ -52,8 +52,14 @@ tr:nth-child(even) {
     background-color: #f2f2f2;
 }
 
+/* Change the whole row color on hover */
 tr:hover {
     background-color: #ddd;
+}
+
+/* Change the specific cell to a darker shade on hover */
+td:hover {
+    background-color: #bbb;
 }
 
 /* Responsive Design */
