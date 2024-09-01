@@ -1,0 +1,9 @@
+<!--
+                <div class="project-container">
+                    <h2>Skeleton</h2>
+                    <p class="project-date">Project Duration: 20##/##/##</p>
+                    <p class="project-content">
+                        <a class="project-link" href="#">View Project</a>
+                    </p>
+                </div>
+                -->
